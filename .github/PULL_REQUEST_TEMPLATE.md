@@ -1,13 +1,19 @@
-## What & why
+## Purpose
 
-<!-- What does this change, and why. Link the issue. -->
+<!-- What user, operational, or architectural problem does this change solve? -->
 
-## How tested
+## Boundary
 
-<!-- How you verified it. -->
+<!-- Which repository responsibility changes? Note any protocol, security, or compatibility impact. -->
+
+## Verification
+
+<!-- List the exact checks and manual scenarios completed. -->
 
 ## Checklist
 
-- [ ] No secrets / credentials / `.env` added
-- [ ] Open/closed seam respected — no import across the public↔private boundary
-- [ ] Docs / README updated if behavior changed
+- [ ] The change is focused and contains no unrelated cleanup.
+- [ ] No secrets, credentials, personal data, or local environment files are included.
+- [ ] Shared contracts were changed in `octron-protocol` before dependent runtimes.
+- [ ] Security and privacy claims are backed by tests.
+- [ ] Documentation and rollout notes match the implemented behavior.

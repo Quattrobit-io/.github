@@ -1,7 +1,25 @@
 # Security policy
 
-To report a vulnerability, email **admin@quattrobit.io** with details and, if possible, a
-proof-of-concept. Please do **not** open a public issue for security problems.
+Security and privacy boundaries are part of the Octron product contract. Report suspected vulnerabilities privately rather than opening a public issue.
 
-We aim to acknowledge within 72 hours. Please give us a reasonable window to ship a fix
-before any public disclosure.
+## Report a vulnerability
+
+Email **support@octron.ai** with:
+
+- the affected repository, version, or commit;
+- concise reproduction steps;
+- expected and observed behavior;
+- the potential impact;
+- logs or screenshots with secrets and personal data removed.
+
+Do not include provider credentials, API keys, session transcripts, customer data, private artifacts, or signing material. We will acknowledge a complete report and coordinate disclosure after investigation and remediation.
+
+## Scope
+
+Security-sensitive areas include authentication, identity binding, credentials, enrollment, authorization, process execution, approvals, browser control, filesystem access, updates, remote transport, and data leaving a host.
+
+Repositories may define more specific reporting and support policies. When they do, the repository policy takes precedence for that component.
+
+## Disclosure
+
+Please allow a reasonable remediation window before public disclosure. We do not ask researchers to hide unresolved risk indefinitely; we ask for coordinated handling that protects users while a fix is prepared and deployed.
