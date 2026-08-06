@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: Security report
-    url: https://github.com/quattrobit-io/.github/blob/main/SECURITY.md
-    about: Please report vulnerabilities privately, not as a public issue.
+    url: mailto:support@octron.ai
+    about: Report vulnerabilities and privacy issues privately.
+  - name: Octron support
+    url: mailto:support@octron.ai
+    about: Get help with an Octron account or private-beta access.

@@ -1,15 +1,30 @@
-name: Feature request
-description: Suggest an idea
-labels: ["enhancement"]
+name: Product proposal
+description: Propose a focused capability or architectural improvement.
+title: "[Proposal]: "
+labels:
+  - enhancement
 body:
   - type: textarea
     id: problem
     attributes:
       label: Problem
-      description: What are you trying to do that's hard today?
+      description: What concrete user or operator problem needs to be solved?
     validations:
       required: true
   - type: textarea
-    id: proposal
+    id: outcome
     attributes:
-      label: Proposed solution
+      label: Desired outcome
+      description: Describe the result without prescribing an implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: boundary
+    attributes:
+      label: Repository boundary
+      description: Which Octron surface should own this capability, and why?
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints
+      description: Note privacy, security, compatibility, or platform constraints.
