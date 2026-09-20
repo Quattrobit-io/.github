@@ -4,7 +4,7 @@
 
 **Independent software company building and operating its own software products.**
 
-[Octron](https://www.octron.ai) · [Release updates](https://www.octron.ai/updates) · [Contact](mailto:hello@quattrobit.io) · [Security](https://github.com/Quattrobit-io/.github/blob/main/SECURITY.md)
+[Octron](https://www.octron.ai) · [Release updates](https://www.octron.ai/updates) · [Contact](mailto:mailroom@quattrobit.io) · [Security](https://github.com/Quattrobit-io/.github/blob/main/SECURITY.md)
 
 </div>
 
