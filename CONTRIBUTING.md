@@ -1,24 +1,16 @@
 # Contributing to Quattrobit repositories
 
-Thank you for taking the time to improve the project. Repository-specific instructions take precedence; the rules below apply when a repository does not define its own guide.
+Follow the target repository's contribution guide when one is provided. Otherwise:
 
-## Before opening a change
-
-1. Start with an issue for behavioral, architectural, or security-sensitive changes.
-2. Keep the change focused on one responsibility.
-3. Follow the repository's existing architecture and verification commands.
-4. Update contracts and documentation when behavior changes.
-5. Remove credentials, personal data, generated secrets, and local environment files.
-
-## Architectural boundary
-
-- Shared cross-runtime contracts belong in `octron-protocol`.
-- Product runtimes consume versioned contracts; they do not redefine them locally.
-- Public or source-available repositories must not import private implementation code.
-- Security and privacy claims require tests at the boundary they describe.
+- Keep changes focused and follow the project's architecture.
+- Run the project's checks and test changed behavior, including security and privacy guarantees.
+- Update affected contracts and documentation; note compatibility changes.
+- Exclude credentials, personal data and local environment files. Keep private implementation code out of public repositories.
 
 ## Pull requests
 
-A useful pull request explains the problem, the chosen boundary, verification performed, and any compatibility or rollout impact. Large mixed refactors may be returned for separation even when the code works.
+Explain the problem, what changed and how you verified it. Include any compatibility or rollout considerations.
+
+Report vulnerabilities privately using [the security policy](SECURITY.md).
 
 By contributing, you agree that your work is distributed under the license of the repository receiving the change.

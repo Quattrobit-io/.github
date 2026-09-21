@@ -21,8 +21,8 @@ body:
   - type: textarea
     id: boundary
     attributes:
-      label: Repository boundary
-      description: Which Octron surface should own this capability, and why?
+      label: Affected area
+      description: Which part of the project would this affect?
   - type: textarea
     id: constraints
     attributes:
